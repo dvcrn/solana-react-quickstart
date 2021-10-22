@@ -8,6 +8,8 @@ Includes:
 - CRA
 - Solana wallet adapter
 
+![screenshot](./screenshot.png)
+
 ## Run
 
 ```
