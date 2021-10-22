@@ -32,7 +32,9 @@ const MyWallet: React.FC = () => {
 
             <div className="multi-wrapper">
                 <span className="button-wrapper">
-                    <WalletMultiButton />
+                    <WalletModalProvider>
+                        <WalletMultiButton />
+                    </WalletModalProvider>
                 </span>
                 {wallet.connected && <WalletDisconnectButton />}
             </div>
