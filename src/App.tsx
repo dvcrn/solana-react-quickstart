@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 import {
   ConnectionProvider,
@@ -17,7 +17,7 @@ import {
   getTorusWallet,
 } from "@solana/wallet-adapter-wallets";
 import { clusterApiUrl } from "@solana/web3.js";
-import MyWallet from './MyWallet';
+import MyWallet from "./MyWallet";
 
 function App() {
   // Can be set to 'devnet', 'testnet', or 'mainnet-beta'
@@ -57,6 +57,16 @@ function App() {
             >
               Learn React
             </a>
+
+            <a
+              className="App-link"
+              href="https://solana-labs.github.io/solana-web3.js/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Solana Web3 docs
+            </a>
+
             <MyWallet />
           </header>
         </div>
