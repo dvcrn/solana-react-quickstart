@@ -8,7 +8,7 @@ Includes:
 - CRA
 - Solana wallet adapter
 
-![screenshot](./screenshot.png)
+![screenshot](./screenshot.jpg)
 
 ## Run
 
@@ -33,15 +33,14 @@ transaction.add(instruction2);
 
 await wallet.signTransaction(transaction);
 const transactionHash = await web3.sendAndConfirmRawTransaction(
-    connection,
-    transaction.serialize()
+  connection,
+  transaction.serialize()
 );
 ```
 
 ## If you use anchor
 
 swap out `useWallet` with `useAnchorWallet` in `MyWallet.tsx`
-
 
 ## License
 
