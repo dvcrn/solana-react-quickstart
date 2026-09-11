@@ -23,6 +23,15 @@
   dependencies:
     "@babel/highlight" "^7.16.0"
 
+"@babel/code-frame@^7.29.7":
+  version "7.29.7"
+  resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.29.7.tgz#f2fbbfea87c44a21590ec515b778b2c26d8866e7"
+  integrity sha512-Aup7aUOfpbAUg2ROOJN6Iw5f9DMBlzu0mIkm/malLQFN/YQgO48wCj0Kxa3sEHJvPVFg7siR+qRInwXd2qhQKw==
+  dependencies:
+    "@babel/helper-validator-identifier" "^7.29.7"
+    js-tokens "^4.0.0"
+    picocolors "^1.1.1"
+
 "@babel/compat-data@^7.13.11", "@babel/compat-data@^7.16.0", "@babel/compat-data@^7.16.4":
   version "7.16.4"
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.16.4.tgz#081d6bbc336ec5c2435c6346b2ae1fb98b5ac68e"
@@ -258,10 +267,20 @@
   dependencies:
     "@babel/types" "^7.16.0"
 
+"@babel/helper-string-parser@^7.29.7":
+  version "7.29.7"
+  resolved "https://registry.yarnpkg.com/@babel/helper-string-parser/-/helper-string-parser-7.29.7.tgz#7f0871d99824d23137d60f86fcf6130fd5a1b51f"
+  integrity sha512-Pb5ijPrZ89GDH8223L4UP8i6QApWxs04RbPQJTeWDV0/keR2E36MeKnyr6LYmUUvqRRI+Iv87SuF1W6ErINzYw==
+
 "@babel/helper-validator-identifier@^7.15.7":
   version "7.15.7"
   resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.15.7.tgz#220df993bfe904a4a6b02ab4f3385a5ebf6e2389"
   integrity sha512-K4JvCtQqad9OY2+yTU8w+E82ywk/fe+ELNlt1G8z3bVGlZfn/hOcQQsUhGhW/N+tb3fxK800wLtKOE/aM0m72w==
+
+"@babel/helper-validator-identifier@^7.29.7":
+  version "7.29.7"
+  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.29.7.tgz#bd87084ced0c796ec46bda492de6e83d29e89fc2"
+  integrity sha512-qehxGkRj55h/ff8EMaJ+cYhyaKlHIxqYDn682wQD7RNp9UujOQsHog2uS0r2vzr4pW+sXf90NeeayjcNaX3fFg==
 
 "@babel/helper-validator-option@^7.14.5":
   version "7.14.5"
@@ -279,13 +298,12 @@
     "@babel/types" "^7.16.0"
 
 "@babel/helpers@^7.12.1", "@babel/helpers@^7.16.5":
-  version "7.16.5"
-  resolved "https://registry.yarnpkg.com/@babel/helpers/-/helpers-7.16.5.tgz#29a052d4b827846dd76ece16f565b9634c554ebd"
-  integrity sha512-TLgi6Lh71vvMZGEkFuIxzaPsyeYCHQ5jJOOX1f0xXn0uciFuE8cEk0wyBquMcCxBXZ5BJhE2aUB7pnWTD150Tw==
+  version "7.29.7"
+  resolved "https://registry.yarnpkg.com/@babel/helpers/-/helpers-7.29.7.tgz#45abfde7548997e34376c3e69feb475cffb4a607"
+  integrity sha512-1k2lAGRMfHTcwuNYcCNUmaUffmQv8KWMfh2iJUUeRlwlwH4FdNG7mfPI10NPfLHJFThE4Tyr4mv7kTNZOiPuBg==
   dependencies:
-    "@babel/template" "^7.16.0"
-    "@babel/traverse" "^7.16.5"
-    "@babel/types" "^7.16.0"
+    "@babel/template" "^7.29.7"
+    "@babel/types" "^7.29.7"
 
 "@babel/highlight@^7.10.4", "@babel/highlight@^7.16.0":
   version "7.16.0"
@@ -300,6 +318,13 @@
   version "7.16.6"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.16.6.tgz#8f194828193e8fa79166f34a4b4e52f3e769a314"
   integrity sha512-Gr86ujcNuPDnNOY8mi383Hvi8IYrJVJYuf3XcuBM/Dgd+bINn/7tHqsj+tKkoreMbmGsFLsltI/JJd8fOFWGDQ==
+
+"@babel/parser@^7.29.7":
+  version "7.29.8"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.29.8.tgz#9653716a2f10c677b98fbc63d4bfb000c302cf17"
+  integrity sha512-E8lTAYNB1KW+FH+VGJuZM1ioAx2E6oVlvQFRrf5P8ZZmsiJXYAD9vTFV7yyEURNzgh1dFqMZuO6tUwcARbqFCA==
+  dependencies:
+    "@babel/types" "^7.29.8"
 
 "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@^7.16.2":
   version "7.16.2"
@@ -1048,6 +1073,15 @@
     "@babel/parser" "^7.16.0"
     "@babel/types" "^7.16.0"
 
+"@babel/template@^7.29.7":
+  version "7.29.7"
+  resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.29.7.tgz#4d9d4004f645cdd304de958c725162784ecac700"
+  integrity sha512-puq+Gf35oI24FeN11LkoUQFqv9uwNeWpxXZi/Ji3rRIoKAzKnxRaZ+Gkj0vKS9ZCiTESfng1N9LyOyXvo+m+Gg==
+  dependencies:
+    "@babel/code-frame" "^7.29.7"
+    "@babel/parser" "^7.29.7"
+    "@babel/types" "^7.29.7"
+
 "@babel/traverse@^7.1.0", "@babel/traverse@^7.12.1", "@babel/traverse@^7.13.0", "@babel/traverse@^7.16.5", "@babel/traverse@^7.7.0":
   version "7.16.5"
   resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.16.5.tgz#d7d400a8229c714a59b87624fc67b0f1fbd4b2b3"
@@ -1071,6 +1105,14 @@
   dependencies:
     "@babel/helper-validator-identifier" "^7.15.7"
     to-fast-properties "^2.0.0"
+
+"@babel/types@^7.29.7", "@babel/types@^7.29.8":
+  version "7.29.8"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.29.8.tgz#1229eef31d85156d70fa3f4cd859376d0eaf6863"
+  integrity sha512-Vj1jF3cPfxg7OAfoI7QnVKLoILlm2JF9pnVHrX8qx7AHMiYWT+NDAA7jChlNgRS4WTLc/fD1lXLmPixluj+3Gg==
+  dependencies:
+    "@babel/helper-string-parser" "^7.29.7"
+    "@babel/helper-validator-identifier" "^7.29.7"
 
 "@bcoe/v8-coverage@^0.2.3":
   version "0.2.3"
@@ -8648,6 +8690,11 @@ picocolors@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
   integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
+
+picocolors@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.1.1.tgz#3d321af3eab939b083c8f929a1d12cda81c26b6b"
+  integrity sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==
 
 picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.2, picomatch@^2.2.3:
   version "2.3.0"
